@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: 'Quando', sans-serif;
+}
+
+#logo {
+  width: 50px;
+  border-radius: 15px;
+  padding: 5px;
+}
+#jumbotron {
+  height: 110vh;
+  background: url(assets/background.jpg);
+  background-size: cover;
+  user-select: none;
+}
+
+#turlar {
+  width: 100%;
+  height: 100%;
+  background-color: #212c35;
+  padding: 150px;
+  padding-bottom: 80px;
+}
+
+footer {
+  height: 200px;
+  background-color: #fc997c;
+  margin-bottom: 0;
+}
+h1 {
+  transform: translateY(200px);
+  font-family: 'Quando', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: azure;
+}
+h2 {
+  padding-bottom: 100px;
+  text-align: center;
+  font-family: serif;
+}
+h4 {
+  transform: translateY(280px);
+  font-family: 'Quando', serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: azure;
+}
+h6 {
+  text-align: center;
+}
+#explore {
+  transform: translateY(390px);
+  font-family: 'Quando', serif;
+}
+#explore:hover {
+  background-color: rgb(197, 208, 219);
+}
+.card-img {
+  width: auto;
+  min-height: auto;
+  max-height: 500px;
+  filter: grayscale(80%);
+  transition: ease all 1s;
+  cursor: pointer;
+}
+.card-img:hover {
+  filter: grayscale(0%);
+}
+#iletisim {
+  height: 100%;
+  min-width: 50%;
+  width: 40%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: #daddfc;
+}
+
+@media only screen and (max-width: 1024px) {
+  #iletisim {
+    width: 100%;
+  }
+  #turlar {
+    width: 100%;
+    height: 100%;
+    background-color: #212c35;
+    padding-bottom: 80px;
+    padding: 20px;
+    overflow: hidden;
+  }
+}
+svg {
+  padding: 5px;
+}
+svg:hover {
+  fill: rgb(24, 104, 207);
+  cursor: pointer;
+}
+#heart {
+  animation: kalpatisi 2s cubic-bezier(0.32, 0, 0.67, 0) 0s infinite normal
+    forwards;
+  fill: rgb(185, 28, 28);
+}
+@keyframes kalpatisi {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(1.2);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
