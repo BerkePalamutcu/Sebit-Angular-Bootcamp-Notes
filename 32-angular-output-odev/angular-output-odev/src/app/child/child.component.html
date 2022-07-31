@@ -1,0 +1,10 @@
+<div class="container">
+  <label class="component">CHILD COMPONENT</label>
+  <div class="child-div">
+    <label for="item-input">Esya listesi:</label>
+    <input type="text" id="item-input" #newItem />
+    <button type="button" (click)="addNewItem(newItem.value)">
+      Parent komponente gonder
+    </button>
+  </div>
+</div>

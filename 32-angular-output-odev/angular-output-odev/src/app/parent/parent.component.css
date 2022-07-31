@@ -1,0 +1,27 @@
+.parent {
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  flex-direction: column;
+}
+.parent-component {
+  color: red;
+}
+
+ol li {
+  color: red;
+  font-size: 20px;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  font-size: 20px;
+}

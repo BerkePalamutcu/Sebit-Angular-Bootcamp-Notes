@@ -1,0 +1,49 @@
+.child-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  padding: 50px;
+  gap: 30px;
+}
+
+label input button {
+  display: flex;
+}
+label {
+  font-size: 20px;
+  color: green;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+}
+button {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: green;
+  border: 3px solid green;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: green;
+  color: white;
+}
+.component {
+  color: green;
+}
+
+.container {
+  display: flex;
+
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
