@@ -105,75 +105,65 @@ input {
 }
 
 svg {
-    padding: 5px;
-    align-items: center;
+  padding: 5px;
+  align-items: center;
 }
 svg:hover {
-    fill: rgb(24, 104, 207);
-      cursor: pointer;
-      
+  fill: rgb(24, 104, 207);
+  cursor: pointer;
 }
 #heart {
-    animation: kalpatisi 2s cubic-bezier(0.32, 0, 0.67, 0) 0s infinite normal
-        forwards;
-          fill: rgb(185, 28, 28);
-          
+  animation: kalpatisi 2s cubic-bezier(0.32, 0, 0.67, 0) 0s infinite normal
+    forwards;
+  fill: rgb(247, 28, 28);
 }
 @keyframes kalpatisi {
   0% {
-        animation-timing-function: ease-out;
-            transform: scale(1);
-                transform-origin: center center;
-                  
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
   }
 
   10% {
-        animation-timing-function: ease-in;
-            transform: scale(0.91);
-              
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
   }
 
   17% {
-        animation-timing-function: ease-out;
-            transform: scale(1.2);
-              
+    animation-timing-function: ease-out;
+    transform: scale(1.2);
   }
 
   33% {
-        animation-timing-function: ease-in;
-            transform: scale(0.87);
-              
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
   }
 
   45% {
-        animation-timing-function: ease-out;
-            transform: scale(1);
-              
+    animation-timing-function: ease-out;
+    transform: scale(1);
   }
-  
 }
-footer{
-
+footer {
   display: flex;
   justify-content: center;
-  background: #F79361;
+  background: #f79361;
   align-items: center;
 }
-.items{
+.items {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-h6{
+h6 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-span {
+.footerspan {
   justify-content: center;
   align-items: center;
   display: flex;
   align-content: center;
-  padding: 10px;
   margin-top: 5px;
 }
