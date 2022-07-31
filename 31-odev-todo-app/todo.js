@@ -41,6 +41,7 @@ liste.addEventListener('click', function (e) {
     e.target.parentElement.remove();
   }
 });
-/* Burada ise ul'ye event listener ekledik ve eventin hangi classi etkiledigine gore yapacagi islemleri belirledik. 2 ayri event listener ve fonksiyon olusturmak yerine tek event listener icinde 2 farkli fonksyion olusturmayi tercih ettim*/
+/* Burada ise ul'ye event listener ekledik ve eventin hangi classi etkiledigine gore yapacagi islemleri belirledik. 
+2 ayri event listener ve fonksiyon olusturmak yerine tek event listener icinde 2 farkli fonksyion olusturmayi tercih ettim*/
 
-// iyi kodlamalar :) Berke Palamutcu tarafindan sevgiyle kodlandi <3 //
+//  Berke Palamutcu tarafindan  kodlandi //
