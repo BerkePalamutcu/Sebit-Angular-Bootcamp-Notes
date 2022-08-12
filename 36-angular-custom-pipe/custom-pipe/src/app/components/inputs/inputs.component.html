@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="wrapper">
+    <h1 style="color: blue;">Celsiusu fahreneit'a cevir</h1>
+    <mat-form-field class="example-form-field" appearance="fill">
+      <mat-label>Celsisus girin</mat-label>
+      <input  matInput type="text" [(ngModel)]="celsius" />
+      <button
+        *ngIf="celsius"
+        matSuffix
+        mat-icon-button
+        aria-label="Clear"
+        (click)="celsius = 0"
+      >
+        <mat-icon>close</mat-icon>
+      </button>
+      </mat-form-field>
+      <div class="resultCelsius">
+        <h1 *ngIf="celsius">sonuc {{celsius | convertCelsius | number}} fahreneit</h1>
+      </div>
+  </div>
+    <div class="wrapper">
+      <h1 style="color: red;">Fahreneit'i celsius'a cevir</h1>
+      <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Fahreneit girin</mat-label>
+        <input matInput type="text" [(ngModel)]="fahreneit" />
+        <button
+          *ngIf="fahreneit"
+          matSuffix
+          mat-icon-button
+          aria-label="Clear"
+          (click)="fahreneit = 0"
+        >
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <div class="resultCelsius">
+        <h1 *ngIf="fahreneit">sonuc {{fahreneit | convertFahreneit | number}} celsius</h1>
+      </div>
+    </div>
+</div>
